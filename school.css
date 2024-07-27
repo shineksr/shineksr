@@ -31,12 +31,12 @@ header .navbar-A{
 }
 .navbar-A ul{
     display: flex;
-    padding: 7px 163px;  
+    padding: 7px 407px;  
     justify-content: end;
     list-style: none;    
 }
 .navbar-A ul li a{
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     padding: 5px;  
     position: relative;
@@ -47,11 +47,11 @@ header .navbar-A{
     color: red;
 }
 .navbar-BA{
-    height: 75px;
-    /* width: 100%; */
-    background-color: white;
     display: flex;
-    padding: 0 161px;
+    height: 75px;
+    align-items: center;
+    padding: 60px 60px 60px  441px;
+    background-color: white;
 }
 .navbar-BA .navbar-BB{
    align-items: center;
@@ -71,7 +71,7 @@ header .navbar-A{
     list-style: none; 
 }
 .navbar-BA .navbar-BB  ul a{
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     padding: 5px;   
     position: relative;
@@ -82,28 +82,52 @@ header .navbar-A{
     color: red;
 }
 .navbar-BA .navbar-BB .cta-btn{
-    font-size: 15px;
+    /* font-size: 15px; */
+    display: flex;
     background-color: #f7b432;
     color: rgb(10, 1, 1);
-    padding: 10px 16px;
+    padding:  19px 18px 24px 45px;
     border-radius: 3px;
     font-weight: 700;
+    transition: all 0.5s ease;
 }
+.navbar-BA .navbar-BB .cta-btn:hover{
+    padding-left: 10px;
+}
+.navbar-BA .navbar-BB .cta-btn img  {
+    height: 15px;
+    opacity: 0;
+    margin-top: 7px;
+    transition: all 0.5s ease;
+}
+.navbar-BA .navbar-BB .cta-btn:hover img{
+    opacity: 5;
+    transform: translate(12px)
+}
+.navbar-BA .navbar-BB .cta-btn h1{
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+.navbar-BA .navbar-BB .cta-btn h1:hover{
+    transform: translate(12px)
+}
+
  /* todo header end */
  /* todo vid-info start */
  .video-main{
     display: flex;
 }
-.video-main .vid-topstiker-logo img{
-   height: 100px;
-} 
  .video-main .vid-info{
     letter-spacing: -3px;
     line-height: 125px;
     text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0.4);
     text-transform: uppercase;
-    
+    padding: 146px 54px 9px 198px; 
 }
+.video-main .vid-info img{
+    position: relative;
+    height: 100px;
+ } 
  .video-main .vid-info h1{
     display: flex;
     font-size: 152px;
@@ -135,7 +159,17 @@ header .navbar-A{
 }
 .video-main .video{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    display: flex;
+  width:100%;
+  z-index: -1;
+}
+.video-main .vid-bottom-stiker-logo{
+    display: flex;   
+}
+.video-main .vid-bottom-stiker-logo img{
+    transform: translateY(616px);
+    padding-left: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
