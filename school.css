@@ -234,7 +234,6 @@ header .navbar-A{
   /* todo Thirid-section  */
   .Section-third{
     display: flex;
-
   }
   .Section-third .left-img{
     flex: 1;
@@ -243,9 +242,58 @@ header .navbar-A{
     height: 550px;
     width: 500px;
   }
+  .right-info{
+    flex: 1;
+    font-size: 15px;
+    padding-top: 120px;
+  }
   .Section-third .right-info h1{
         font-size: 65px;
         font-weight: 700;
-
+       text-align: center;
+        color: #0c71c3;
+        letter-spacing: -5px;
   }
+  .Section-third .right-info h2{
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+  }
+  /*todo cta-btn-second-section start */
+
+  .right-info .cta-btn-secnd {
+    display: flex;
+    background-color:#0c71c3;
+    padding:  19px 18px 24px 45px;
+    border-radius: 3px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+    width: 170px;
+    height: 65px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.right-info .cta-btn-secnd:hover{
+    padding-left: 10px;
+}
+.right-info .cta-btn-secnd img  {
+    height: 15px;
+    opacity: 0;
+    margin-top: 7px;
+    transition: all 0.5s ease;
+}
+.right-info .cta-btn-secnd:hover img{
+    opacity: 5;
+    transform: translate(12px)
+}
+.right-info .cta-btn-secnd h1{
+    color: white;
+    font-size: 22px;
+    transition: all 0.5s ease;
+}
+.right-info .cta-btn-secnd h1:hover{
+    transform: translate(12px)
+}
+ /*todo cta-btn-second-section end*/
   
