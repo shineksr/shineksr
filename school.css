@@ -113,6 +113,7 @@ header .navbar-A{
 }
 
  /* todo header end */
+
  /* todo vid-info start */
  .video-main{
     display: flex;
@@ -167,9 +168,99 @@ header .navbar-A{
     display: flex;   
 }
 .video-main .vid-bottom-stiker-logo img{
-    transform: translateY(616px);
+    transform: translateY(468px);
     padding-left: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: fixed;
 }
+ /* todo vid-info end */
+  /* todo Second-section-img-card start */
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(170px); 
+    margin-bottom: 250px; 
+}
+.card-container .img-containerA{
+ 
+}
+.card-container .img-containerA img{
+    height: 225px;
+    width: 310px;
+  
+}
+.card-container .img-containerA h1{
+    font-size: 45px;
+    top:  80px;;
+    left: 195px;
+    position: absolute;
+    text-align: center;
+    color: white; 
+    cursor: pointer;
+}
+.card-container .img-containerA h1:hover{
+    color: #f7b432;
+}
+.card-container .img-containerB{
+
+}
+.card-container .img-containerB img{
+    height: 225px;
+    width: 310px;
+}
+.card-container .img-containerB h1{
+    font-size: 45px;
+    top:  80px;;
+    left: 700px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.card-container .img-containerB h1:hover{
+    color: #f7b432;
+}
+.card-container .img-containerC{
+
+}
+.card-container .img-containerC img{
+    height: 225px;
+    width: 310px;
+}
+.card-container .img-containerC h1{
+    font-size: 45px;
+    display: flex;
+    position: absolute;
+    top:  80px;;
+    right: 270px;
+    color: white;
+    cursor: pointer;
+}
+.card-container .img-containerC h1:hover{
+    color: #f7b432;
+}
+/* todo Second-section-img-card end */
+
+  /* todo Thirid-section  */
+  .Section-third{
+    display: flex;
+
+  }
+  .Section-third .left-img{
+    flex: 1;
+  }
+  .Section-third .left-img img{
+    height: 550px;
+    width: 500px;
+  }
+  .Section-third .right-info{
+    
+  }
+  .Section-third .right-info h1{
+        font-size: 65px;
+        font-weight: 700;
+        
+  }
+  
