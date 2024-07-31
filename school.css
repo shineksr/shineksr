@@ -10,10 +10,6 @@ body{
     
 }
  /* todo header start  */
-
-header{  
-}
-
 a{
     text-decoration: none;
 }
@@ -261,6 +257,6 @@ header .navbar-A{
   .Section-third .right-info h1{
         font-size: 65px;
         font-weight: 700;
-        
+
   }
   
