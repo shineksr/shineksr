@@ -179,9 +179,6 @@ header .navbar-A{
     transform: translateY(170px); 
     margin-bottom: 250px; 
 }
-.card-container .img-containerA{
- 
-}
 .card-container .img-containerA img{
     height: 225px;
     width: 310px;
@@ -199,9 +196,6 @@ header .navbar-A{
 .card-container .img-containerA h1:hover{
     color: #f7b432;
 }
-.card-container .img-containerB{
-
-}
 .card-container .img-containerB img{
     height: 225px;
     width: 310px;
@@ -218,9 +212,7 @@ header .navbar-A{
 .card-container .img-containerB h1:hover{
     color: #f7b432;
 }
-.card-container .img-containerC{
 
-}
 .card-container .img-containerC img{
     height: 225px;
     width: 310px;
@@ -250,9 +242,6 @@ header .navbar-A{
   .Section-third .left-img img{
     height: 550px;
     width: 500px;
-  }
-  .Section-third .right-info{
-    
   }
   .Section-third .right-info h1{
         font-size: 65px;
