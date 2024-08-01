@@ -302,4 +302,95 @@ header .navbar-A{
     transform: translate(12px)
 }
  /*todo cta-btn-second-section end*/
-  
+   /* todo fourth section-info start */
+.second-info{
+    /* width: 100%; */
+     display: block;
+    align-items: center;
+    color: #0C71C3;
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+.second-info h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.second-info h1{
+    align-items: center;
+    font-size: 85px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+    font-weight: 900;
+    margin-top: -25px;
+    
+}
+.second-info h3{
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+}
+/* todo fourth section-info end */
+/* todo fifth section-info end */
+/* .thirid_section_info_thirid_and_fourth{
+    display: flex;
+}
+.thirid_section_info_thirid_and_fourth .third1_info_visit_campus{
+
+}
+.thirid_section_info_thirid_and_fourth .third1_info_visit_campus .visit-location-icon{
+
+} */
+
+.third1_info_visit_campus h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #0C71C3;
+}
+.third1_info_visit_campus h2{
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+}
+.third1_info_visit_campus .cta-btn3{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #0C71C3;
+    padding: 8px 11px 6px 2px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 170px;
+    height: 65px;
+    margin-left: 300px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    color: white;
+}
+.third1_info_visit_campus .cta-btn3:hover{
+  padding-left: 2px;
+}
+.third1_info_visit_campus .cta-btn3 img  {
+    display: flex;
+    height: 22px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.third1_info_visit_campus .cta-btn3 img{
+   padding-bottom: 4px;
+    opacity: 5; 
+    transform: translate(5px)   
+}
+.third1_info_visit_campus .cta-btn3 h1{
+    word-spacing: -1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    padding: 15px 10px 20px 5px;
+    color:white;
+
+}
+.third1_info_visit_campus .cta-btn3 h1:hover{
+    transform: translate(5px)
+}
