@@ -174,37 +174,44 @@ header .navbar-A{
  /* todo vid-info end */
   /* todo Second-section-img-card start */
 .card-container{
-    display: flex;
+  position: relative;
     justify-content: space-evenly;
     transform: translateY(170px); 
     margin-bottom: 250px; 
 }
 .card-container .img-containerA img{
+    position:absolute;
+    top: -240px;
+    left: 180px;
     height: 225px;
     width: 310px;
-  
+    border-radius: 10px;
 }
 .card-container .img-containerA h1{
-    font-size: 45px;
-    top:  80px;;
-    left: 195px;
-    position: absolute;
+    position:absolute;
+    top: -140px;
+    left: 210px;
     text-align: center;
     color: white; 
     cursor: pointer;
+    font-size: 45px;
 }
 .card-container .img-containerA h1:hover{
     color: #f7b432;
 }
 .card-container .img-containerB img{
+    position: absolute;
+    top: -240px;
+    left: 660px;
     height: 225px;
     width: 310px;
+    border-radius: 10px;
 }
 .card-container .img-containerB h1{
     font-size: 45px;
-    top:  80px;;
-    left: 700px;
     position: absolute;
+    top: -140px;
+    left: 710px;
     text-align: center;
     color: white;
     cursor: pointer;
@@ -214,15 +221,19 @@ header .navbar-A{
 }
 
 .card-container .img-containerC img{
+    position: absolute;
+    top: -240px;
+    left: 1160px;
     height: 225px;
     width: 310px;
+    border-radius: 10px;
 }
 .card-container .img-containerC h1{
     font-size: 45px;
     display: flex;
     position: absolute;
-    top:  80px;;
-    right: 270px;
+    top: -140px;
+    left: 1230px;
     color: white;
     cursor: pointer;
 }
@@ -231,8 +242,9 @@ header .navbar-A{
 }
 /* todo Second-section-img-card end */
 
-  /* todo Thirid-section  */
+  /* todo ABOUT-section  */
   .Section-third{
+    margin-top: 500px;
     display: flex;
   }
   .Section-third .left-img{
@@ -301,8 +313,8 @@ header .navbar-A{
 .right-info .cta-btn-secnd h1:hover{
     transform: translate(12px)
 }
- /*todo cta-btn-second-section end*/
-   /* todo fourth section-info start */
+ /*todo cta-btn- and ABOUT section end*/
+   /* todo CAMPUS section start */
 .second-info{
     /* width: 100%; */
      display: block;
@@ -329,7 +341,7 @@ header .navbar-A{
     color: black;
     line-height: 30px;
 }
-/* todo fourth section-info end */
+/* todo CAMPUS section end */
 /* todo fifth section-info end */
 /* .thirid_section_info_thirid_and_fourth{
     display: flex;
@@ -341,6 +353,16 @@ header .navbar-A{
 
 } */
 
+.thirid_section_info_thirid_and_fourth{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 230px;
+}
+.visit-location-icon{
+    position: absolute;
+    left:-100px;
+
+}
 .third1_info_visit_campus h1{
     font-size: 40px;
     font-weight: 900;
@@ -362,8 +384,7 @@ header .navbar-A{
     font-weight: 700;
     text-decoration: none;
     width: 170px;
-    height: 65px;
-    margin-left: 300px;
+    height: 55px;
     margin-top: 20px;
     transition: all 0.5s ease;
     color: white;
@@ -377,8 +398,7 @@ header .navbar-A{
     opacity: 0;
     transition: all 0.5s ease;
 }
-.third1_info_visit_campus .cta-btn3 img{
-   padding-bottom: 4px;
+.third1_info_visit_campus .cta-btn3:hover img{
     opacity: 5; 
     transform: translate(5px)   
 }
@@ -387,10 +407,153 @@ header .navbar-A{
     letter-spacing: 1px;
     font-size: 18px;
     transition: all 0.5s ease;
-    padding: 15px 10px 20px 5px;
+    padding: 17px 10px 20px 15px;
     color:white;
 
 }
 .third1_info_visit_campus .cta-btn3 h1:hover{
     transform: translate(5px)
 }
+/* todo Student life section start */
+.thirid2_info_student_life{
+    margin-top: 100px;
+}
+.thirid2_info_student_life .Bag_icon_student{
+    position: absolute;
+    left:-100px;
+}
+.thirid2_info_student_life h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #0C71C3;
+}
+.thirid2_info_student_life h2{
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+}
+.thirid2_info_student_life .cta-btn4{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #0C71C3;
+    padding: 16px 2px 6px 7px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 190px;
+    height: 55px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    color: white;
+}
+.thirid2_info_student_life .cta-btn4:hover{
+  padding-left: 2px;
+}
+.thirid2_info_student_life .cta-btn4 img  {
+    display: flex;
+    height: 22px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.thirid2_info_student_life .cta-btn4:hover img{
+   padding-bottom: 4px;
+    opacity: 5; 
+    transform: translate(10px)   
+}
+.thirid2_info_student_life .cta-btn4 h1{
+    word-spacing: -1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    padding: 15px 10px 20px 5px;
+    color:white;
+
+}
+.thirid2_info_student_life .cta-btn4:hover h1{
+    transform: translate(15px)
+}
+.walking-img img{
+    max-height: 585px;
+    position: absolute;
+    top: 10px;
+    left: 770px;
+    margin-right: 100px;
+    z-index: -1;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px black;
+
+}
+/* todo Student life section end */
+
+/* todo Thinks to do section START */
+.think_to_do{
+    margin-top: 100px;
+}
+.think_to_do .think_to_do_icon {
+    position:absolute;
+    left:-100px;
+}
+.think_to_do h1{
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    color: #0C71C3;
+}
+.think_to_do h2{
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+}
+.think_to_do .cta_btn_learn_more{
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #0C71C3;
+    padding: 16px 2px 6px 7px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 190px;
+    height: 55px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    color: white;
+}
+.think_to_do .cta_btn_learn_more:hover{
+  padding-left: 2px;
+}
+.think_to_do .cta_btn_learn_more img  {
+    display: flex;
+    height: 22px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.think_to_do .cta_btn_learn_more:hover img{
+   padding-bottom: 4px;
+    opacity: 5; 
+    transform: translate(10px)   
+}
+.think_to_do .cta_btn_learn_more h1{
+    word-spacing: -1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    padding: 15px 10px 20px 5px;
+    color:white;
+
+}
+.think_to_do .cta_btn_learn_more:hover h1{
+    transform: translate(15px)
+}
+.think_to_do .think_to_do_img img{
+    max-height: 210px;
+    width: 400px;
+    position: absolute;
+    top: 780px;
+    left: 770px;
+    border-radius: 15px;
+    box-shadow: 10px 5px 26px black;
+}
+/* todo Thinks to do section END */
